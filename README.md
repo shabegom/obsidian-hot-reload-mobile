@@ -21,7 +21,7 @@ Download the release and put the files in your `plugins` folder as usual
 
 ## Adjusting Hot Reload Desktop
 
-Add the following code to the `reload()` method in `main.js` of Hot Reload
+Add the following code to the `reload()` method in `main.js` of Hot Reload at the bottom of a `try` block
 
 ```js
 const tFile = this.app.vault.getAbstractFileByPath('hot-reload.md')

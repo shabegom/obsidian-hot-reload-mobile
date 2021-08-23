@@ -7,6 +7,9 @@ module.exports = class MobileHotReload extends Plugin {
     modifyRef;
 
     onload() { 
+        if (this.app.isMobile) {
+
+        
        this.PluginChangeRef = this.PluginChange.on('plugin-updated', async () => {
             const tFile = this.app.vault.getAbstractFileByPath('hot-reload.md')
             const logContent = await this.app.vault.read(tFile)
@@ -25,11 +28,13 @@ module.exports = class MobileHotReload extends Plugin {
                 this.PluginChange.trigger('plugin-updated')
             }
         })
-
+    }
      }
      onunload() {
+         if (this.app.isMobile) {
         this.PluginChange.offref(this.PluginChangeRef)
         this.app.vault.offref(this.modifyRef)
+         }
      }
 
 }
