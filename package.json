@@ -1,0 +1,19 @@
+{
+  "name": "obsidian-plugins",
+  "version": "1.0.0",
+  "description": "hot reload for obsidian mobile",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shabegom/obsidian-hot-reload-mobile.git"
+  },
+  "author": "shabegom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shabegom/obsidian-hot-reload-mobile/issues"
+  },
+  "homepage": "https://github.com/shabegom/obsidian-hot-reload-mobile#readme"
+}

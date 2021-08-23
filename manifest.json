@@ -1,0 +1,10 @@
+{
+	"id": "mobile-hot-reload",
+	"name": "Mobile Hot Reload",
+	"version": "1.0.1",
+	"minAppVersion": "0.9.12",
+	"description": "Hot Reload for Obsidian Mobile",
+	"author": "shabegom",
+	"authorUrl": "https://shbgm.ca",
+	"isDesktopOnly": false
+}
